@@ -1,0 +1,6 @@
+{
+  "appId": "com.suitepdf.app",
+  "appName": "SuitePDF",
+  "webDir": "dist",
+  "android": { "backgroundColor": "#111219" }
+}

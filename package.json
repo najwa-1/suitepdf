@@ -1,0 +1,30 @@
+{
+  "name": "suitepdf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node test/pdf.test.js",
+    "android:sync": "npm run build && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/filesystem": "^7.1.5",
+    "@capacitor/share": "^7.0.2",
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@fontsource/noto-sans-arabic": "^5.3.0",
+    "jszip": "^3.10.2",
+    "lucide": "^0.468.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.4.394"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "vite": "^6.4.1"
+  }
+}

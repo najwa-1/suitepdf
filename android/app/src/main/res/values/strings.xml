@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SuitePDF</string>
+    <string name="title_activity_main">SuitePDF</string>
+    <string name="package_name">com.suitepdf.app</string>
+    <string name="custom_url_scheme">com.suitepdf.app</string>
+</resources>
